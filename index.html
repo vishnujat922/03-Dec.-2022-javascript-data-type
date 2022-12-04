@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>java script data types</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+           
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1 class="myheading"></h1>
+        <span class="special"></span>
+        <h2 class="myheading2"></h2>
+        <h3 class="myheading3"></h3>
+        <h4 data-myheading4 = "abc"></h4>
+        <p class="myparagraph"></p>
+        <a class="myanchor"></a>
+        <p class="myparagraph2"></p>
+        <span id="special2"></span>
+    <script>
+         //this is a js singleline comment 
+         /*
+         this is a  multiline comment
+         you can write your documentation
+         you can
+         */
+        // we will create this name var to store the user first name
+        var name = "visnhu";
+        // I want to see the js output
+        // using string
+        console.log(typeof name);
+        console.log("India");
+        console.log(typeof "India");
+        console.log('Africa');
+        console.log(typeof 'Africa');
+        console.log('Australiya');
+        console.log(typeof 'Australiya');
+        console.log(`nepal`);
+        console.log(typeof `nepal`);
+        console.log(`bhutan`);
+        console.log(typeof `bhutan`);
+        console.log(typeof 5);
+        // i want to see the js code with anather techniques
+        //document.queryselector(); 
+        document.querySelector('h1.myheading').innerHTML = 'India Is A Great Country';
+        document.querySelector("span.special").innerHTML = "Hello Everyone";
+        document.querySelector('h2.myheading2').innerHTML = 'Hello world';
+        document.querySelector(`p.myparagraph`).innerHTML = `Hello my Every respected`;
+        document.querySelector(`a.myanchor`).innerHTML = `I proud of our country`;
+        // we will creat a var to store the user height
+        let x = 6.2;
+        document.querySelector('h3.myheading3').innerHTML = typeof x;
+        // lets creat a var to store the product Quantity
+        let p = 250;
+        document.querySelector('p.myparagraph2').innerHTML = typeof p;
+        document.querySelector(`span#special2`).innerHTML = `Good Evening Sir ji`;
+        document.querySelector("h4[data-myheading4=abc]").innerHTML = 'Good Evening Everyone'
+    </script> 
+        
+    </body>
+</html>
